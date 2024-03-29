@@ -1,9 +1,9 @@
-import React from "react";
 import { Route, Routes } from "react-router-dom";
+import Layout from "./Layouts/Layout";
 function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={"hello"}></Route>
+      <Route path="/" element={<Layout>h</Layout>}></Route>
     </Routes>
   );
 }
