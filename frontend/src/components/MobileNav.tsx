@@ -7,6 +7,7 @@ import {
   SheetTrigger,
 } from "./ui/sheet";
 import { Separator } from "@radix-ui/react-separator";
+import { Button } from "./ui/button";
 
 function MobileNav() {
   return (
@@ -19,6 +20,7 @@ function MobileNav() {
         <Separator />
         <SheetDescription className="flex flex-col gap-4">
           //TODO
+          <Button>Login</Button>
         </SheetDescription>
       </SheetContent>
     </Sheet>
